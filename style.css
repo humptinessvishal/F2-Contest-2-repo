@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins&family=Roboto&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Inter;
+    background-color: #111;
+}
+
+.container1 {
+    margin-left: 5vw;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.container2 {
+    width: 94vw;
+    padding-left: 5vw;
+}
+
+#form1 {
+    display: flex;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    column-gap: 80px;
+}
+
+#form1>input {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 25px;
+    background-color: #111;
+    border: 1px solid #FFF;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+
+}
+
+button {
+    width: 600px;
+    height: 60px;
+    margin-top: 10px;
+    background: #FFF;
+}
+
+.container3 {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-block: 50px;
+    height: 60px;
+}
+
+#form2>input {
+    width: 100%;
+    height: 60px;
+    background-color: #111;
+    border: 1px solid #FFF;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#table {
+    width: 90vw;
+    margin-left: 5vw;
+    border-collapse: collapse;
+    color: white;
+}
+
+#table,
+tr,
+th,
+td {
+    border: 1px solid #fff;
+}
