@@ -9,34 +9,39 @@
 </head>
 
 <body>
-    <div class="container1">
-        <h1>Student Management CRUD</h1>
+    <h1>Student Management CRUD</h1>
+
+    <form id="form">
+        <input id="name" type="text" placeholder="Name" name="name" required>
+        <input id="email" type="email" placeholder="Email" name="email" required>
+        <input id="gpa" type="text" placeholder="GPA" name="gpa" required>
+        <input id="age" type="number" placeholder="Age" name="age" required>
+        <input id="degree" type="text" placeholder="Degree" name="degree" required>
+        <input type="hidden" id="id">
+        <button id="submit" type="submit">Add Student</button>
+    </form>
+
+    <div id="container">
+        <input id="search-input" type="text" placeholder="Search By Name, email or degree">
     </div>
-    <div class="container2">
-        <form action="#" id="form1">
-            <input id="name" type="text" placeholder="Name" name="name">
-            <input id="email" type="email" placeholder="Email" name="email">
-            <input id="gpa" type="number" placeholder="GPA" name="gpa">
-            <input id="age" type="number" placeholder="Age" name="age">
-            <input id="degree" type="text" placeholder="Degree" name="degree">
-            <button type="submit">Add Student</button>
-        </form>
-    </div>
-    <div class="container3">
-        <form action="#" id="form2">
-            <input id="search" type="text" placeholder="Search By Name, email or degree" name="search">
-        </form>
-    </div>
+
     <table id="table">
-        <tr>
-            <th>ID</th>
-            <th>Student Name</th>
-            <th>Email</th>
-            <th>Age</th>
-            <th>Gpa</th>
-            <th>Degree</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Gpa</th>
+                <th>Degree</th>
+                <th>Edit/Delete</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
     </table>
+
     <script src="./script.js"></script>
 </body>
 
